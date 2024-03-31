@@ -1,0 +1,39 @@
+.dashboard {
+  height: 100%;
+  min-height: 87vh;
+  background: linear-gradient(45deg, black, #02474d);
+}
+
+.dashboard-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.dashboard-buttons button {
+  width: 130px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #becfd1;
+  border: none;
+  font-size: 15px;
+}
+
+.dashboard-buttons button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.dashboard-progress-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+  margin-top: 30px;
+}
+
+.dashboard-progress-bar p, .dashboard-progress-bar label {
+    color: white;
+    margin: 0 0 10px 0;
+}

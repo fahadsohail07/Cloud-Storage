@@ -1,0 +1,28 @@
+.navbar {
+    width: 100%;
+    height: 13vh;
+    background-color: #032f3c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar button {
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: #becfd1;
+    color: #032f3c;
+    font-weight: bold;
+}
+
+.navbar button:hover {
+    background: #10898d;
+    color: white;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+}
