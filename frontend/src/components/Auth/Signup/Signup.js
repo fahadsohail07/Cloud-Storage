@@ -27,7 +27,7 @@ const Signup = () => {
         }
       );
       if (response.ok) {
-        const user = await res.json();
+        const user = await response.json();
         setUser(user.user);
       } else {
       }
